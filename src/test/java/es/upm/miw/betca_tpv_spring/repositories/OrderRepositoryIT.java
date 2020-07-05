@@ -2,12 +2,8 @@ package es.upm.miw.betca_tpv_spring.repositories;
 
 import es.upm.miw.betca_tpv_spring.TestConfig;
 import es.upm.miw.betca_tpv_spring.data_services.DatabaseSeederService;
-import es.upm.miw.betca_tpv_spring.documents.Order;
-import es.upm.miw.betca_tpv_spring.documents.OrderLine;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 

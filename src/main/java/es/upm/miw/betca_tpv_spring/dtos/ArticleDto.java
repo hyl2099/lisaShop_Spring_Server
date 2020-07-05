@@ -3,7 +3,6 @@ package es.upm.miw.betca_tpv_spring.dtos;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import es.upm.miw.betca_tpv_spring.documents.Article;
-import es.upm.miw.betca_tpv_spring.documents.Provider;
 import es.upm.miw.betca_tpv_spring.dtos.validations.BigDecimalPositive;
 
 import java.math.BigDecimal;

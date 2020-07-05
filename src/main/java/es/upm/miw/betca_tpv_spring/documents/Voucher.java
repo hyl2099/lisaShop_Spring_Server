@@ -1,35 +1,36 @@
 package es.upm.miw.betca_tpv_spring.documents;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Document
+@Entity
 public class Voucher {
 
     @Id
-    private String id;
+    @GeneratedValue
+    private Long id;
     private BigDecimal value;
     private LocalDateTime creationDate;
     private LocalDateTime dateOfUse;
 
-    public Voucher() {
-        this.creationDate = LocalDateTime.now();
-        this.id = new Encode().generateUUIDUrlSafe();
-    }
+//    public Voucher() {
+//        this.creationDate = LocalDateTime.now();
+//        this.id = new Encode().generateUUIDUrlSafe();
+//    }
 
     public Voucher(BigDecimal value) {
-        this();
         this.value = value;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

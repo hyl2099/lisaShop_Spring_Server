@@ -5,8 +5,6 @@ import es.upm.miw.betca_tpv_spring.documents.*;
 import es.upm.miw.betca_tpv_spring.dtos.ShoppingDto;
 import es.upm.miw.betca_tpv_spring.dtos.TicketCreationInputDto;
 import es.upm.miw.betca_tpv_spring.exceptions.NotFoundException;
-import es.upm.miw.betca_tpv_spring.repositories.ArticleReactRepository;
-import es.upm.miw.betca_tpv_spring.repositories.CashierClosureReactRepository;
 import es.upm.miw.betca_tpv_spring.repositories.TicketReactRepository;
 import es.upm.miw.betca_tpv_spring.repositories.UserReactRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,6 @@
 package es.upm.miw.betca_tpv_spring.repositories;
 
 import es.upm.miw.betca_tpv_spring.TestConfig;
-import es.upm.miw.betca_tpv_spring.documents.Budget;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import reactor.test.StepVerifier;

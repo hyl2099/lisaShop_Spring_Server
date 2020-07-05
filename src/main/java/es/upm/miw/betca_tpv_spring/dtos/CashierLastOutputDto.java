@@ -2,7 +2,6 @@ package es.upm.miw.betca_tpv_spring.dtos;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import es.upm.miw.betca_tpv_spring.documents.CashierClosure;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

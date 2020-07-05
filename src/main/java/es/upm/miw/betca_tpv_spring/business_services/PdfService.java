@@ -1,7 +1,5 @@
 package es.upm.miw.betca_tpv_spring.business_services;
 
-import es.upm.miw.betca_tpv_spring.documents.Shopping;
-import es.upm.miw.betca_tpv_spring.documents.ShoppingState;
 import es.upm.miw.betca_tpv_spring.documents.Ticket;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

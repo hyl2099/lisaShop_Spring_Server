@@ -5,8 +5,6 @@ import es.upm.miw.betca_tpv_spring.documents.Article;
 import es.upm.miw.betca_tpv_spring.dtos.ArticleDto;
 import es.upm.miw.betca_tpv_spring.exceptions.ConflictException;
 import es.upm.miw.betca_tpv_spring.exceptions.NotFoundException;
-import es.upm.miw.betca_tpv_spring.repositories.ArticleReactRepository;
-import es.upm.miw.betca_tpv_spring.repositories.ProviderReactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import reactor.core.publisher.Mono;
